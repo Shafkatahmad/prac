@@ -85,3 +85,9 @@ main > section {
   font-weight: 700;
   margin-bottom: 0;
 }
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
