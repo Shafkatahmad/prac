@@ -187,4 +187,8 @@ main > section {
   #experience-badge {
     margin: 20px;
   }
+  .some-facts-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
 }
